@@ -1,0 +1,25 @@
+
+li.menucon{
+    display: inline-block;
+}
+.menucon-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black(0,0,0,0.2);
+    z-index: 1;
+}
+.menucon-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.menucon-content a:hover{
+    background-color: gray;
+}
+.menucon:hover .menucon-content{
+    display: block;
+}

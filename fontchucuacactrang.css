@@ -1,0 +1,17 @@
+p{
+    font-size: 20px;
+    color: brown;
+}
+.ten{
+    font-size: larger;
+    font-variant: small-caps;
+    color: blue;
+}
+h2{
+    color: blue;
+    font-size: 20px;
+}
+h3{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

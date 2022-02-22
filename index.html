@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>38-PS23004-AnhTu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="fontchucuacactrang.css">
+    <link rel="stylesheet" href="menucon.css">
+    <style>
+        body{
+            padding: 0%;
+            margin: 0%;
+        }
+        header{
+            width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            float:left;
+        }
+        .menu>ul>li{
+            display: inline-block;
+        }
+        .menu>ul>li>a{
+            display: block;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: pink;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+        .menu>ul{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            background-color: blue;
+            text-align: left;
+        }
+        .menu>ul>li>a:hover{
+            color: black ;
+        }
+        .menu>ul>li{
+            position: relative;
+        }
+        .menu ul ul a{
+            display: block;
+            line-height: 30px;
+            color: yellow;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            padding: 0 10px;
+        }
+        .menu ul ul{
+            position: absolute;
+            display: none;
+            padding: 0%;
+            margin: 0%;
+            list-style: none;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 1px black;
+
+        }
+        .menu>ul>li:hover>ul{
+            color: yellow;
+            display: block;
+
+        }
+        .menu ul ul a:hover{
+            background-color: powderblue;
+            color: aliceblue;
+        }
+        .menu{
+            border: 5px solid burlywood;
+            padding: 0px;
+            margin: 5px;
+            list-style: none;
+            border-radius: 6px; 
+        }
+        .haha a{
+            display: block;
+            border-bottom: 1px dotted orangered;
+            color: black;
+            font-variant: small-caps;
+            font-size: large;
+            text-decoration: none;
+            padding: 8px 5px 8px 30px; 
+        }
+        .haha a:hover{
+            border-bottom: 1px dotted white;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+        footer{
+            border: 2px solid purple;
+            text-align: center;
+            background-color: green;
+        }
+        .box{
+            margin: 3px;
+            padding: 7px;
+            border-radius: 10px;
+            background-color: black;
+            box-shadow: 0 0 5px blue;
+        }
+        .box:hover{
+            box-shadow: 0 0 20px pink ;
+            background-color: white;
+        }
+        .form-control{
+            float: right;
+            width: 300px;
+        }
+        .form-group{
+            float: right;
+        }
+        .column{
+        width: 25%;
+        float: left;
+    }
+    .sanpham{
+        border-radius: 10px;
+        box-shadow: 0 0 5px gray;
+        padding: 10px;
+        margin: 5px;
+        text-align-last: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="anh1/hinh-nen-Apple-1.jpeg" alt="" width="1500" height="300">
+        <div class="form-group">
+            <input type="text" placeholder="TÌM KIẾM">
+        </div>
+    </header>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a href="ass2.html">TRANG CHỦ</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li class="menucon">
+                    <a class="menucon1" href="lienhe.html">LIÊN HỆ</a>
+                    <div class="menucon-content">
+                    <a href="#">Facebook</a>
+                    <a href="#">Zalo</a>
+                    <a href="#">Số Điện Thoại</a>
+                    </div>
+                </li>
+                <li><a href="gopy.html">GÓP Ý</a></li>
+                <li class="menucon">
+                    <a class="menucon1" href="#">SẢN PHẨM</a>
+                    <div class="menucon-content">
+                    <a href="#">iPHONE</a>
+                    <a href="#">iPAD</a>
+                    <a href="#">ĐIỆN THOẠI</a>
+                    <a href="#">MP3</a>
+                    <a href="#">PS4</a>
+                    <a href="#">iMAC</a>
+                    <a href="#">MacBook</a>
+                    <a href="#">Apple Watch</a>
+                    <a href="#"><AirPod/a>
+                    </div>
+                </li>
+                <li><a href="dangnhap.html">ĐĂNG NHẬP</a></li>
+                <li><a href="dangki.html">ĐĂNG KÍ</a></li>
+            </ul>
+            <li><a href=""></a></li>
+        </div>
+        </nav>
+        <aside class="haha">
+            <ul> 
+                <li class="menucon">
+                    <a class="menucon1" href="#">Điện Thoaị</a>
+                    <div class="menucon-content">
+                        <a href="">iPhone 6</a>
+                        <a href="">iPhone 7</a>
+                        <a href="">iPhone 8</a>
+                        <a href="">iPhone X</a>
+                    </div>
+                </li>
+                <li class="menucon">
+                    <a class="menucon1" href="#">MP3</a>
+                    <div class="menucon-content">
+                        <a href="">MP3 Cổ Điển</a>
+                        <a href="">MP3 Bấm Nút</a>
+                        <a href="">MP3 Cảm Ứng</a>
+                        <a href="">MP3 Thời Trang</a>
+                    </div>
+                </li>
+                <li class="menucon">
+                    <a class="menucon1" href="#">PlayStaytion4</a>
+                    <div class="menucon-content">
+                        <a href="">Máy Chơi Game PS4 Bản Giới Hạn</a>
+                        <a href="">Máy Chơi Game PS4 Bản Kèm Đĩa</a>
+                    </div>
+                </li>
+                <li class="menucon">
+                    <a class="menucon1" href="#">Đồng Hồ AppleWatch</a>
+                    <div class="menucon-content">
+                        <a href="">Apple Watch 2</a>
+                        <a href="">Apple Watch 5.2</a>
+                        <a href="">Apple Watch 6.2.2</a>
+                        <a href="">Apple Watch 3.0</a>
+                    </div>
+                </li>
+                <li class="menucon">
+                    <a class="menucon1" href="#">iMac</a>
+                    <div class="menucon-content">
+                        <a href="">iMac G3</a>
+                        <a href="">iMac G5</a>
+                        <a href="">iMac 2007</a>
+                        <a href="">iMacMac Pro</a>
+                    </div>
+                </li>
+                <li class="menucon">
+                    <a class="menucon1" href="#">CÁC LOẠI SẢN PHẨM CỦA APPLE</a>
+                    <div class="menucon-content">
+                        <a href="">iPhone</a>
+                        <a href="">Airpod</a>
+                        <a href="">MacBook</a>
+                        <a href="">iMac</a>
+                        <a href="">Apple Watch</a>
+                        <a href="">iPad</a>
+                    </div>
+                </li>
+            </ul>
+        </aside>
+        <article>
+            <p>
+            <img src="anh1/banner-apple-didongviet.jpeg" alt=""class="box" width="500" height="300">
+            <img src="anh1/ts-2017-apple-buying-guide_800x450.jpeg" alt=""class="box" width="300" height="300">
+            <img src="anh1/ps4-hrdware-large18.jpeg" alt=""class="box"width="300"height="300">
+            <img src="anh1/HTB1GFI0rYGYBuNjy0Foq6AiBFXaz.jpeg" alt=""class="box"width="200"height="300">
+            </p>
+        </article>
+        <hr>
+        <br>
+        <p align="center">DANH MỤC NỔI BẬT</p>
+        <p align="center">Sứ mệnh của LOVEPIK chính là giúp các bạn trẻ thoải mái lựa chọn cho mình những sản phẩm phù hợp, máy chơi game, các dòng công nghệ của Apple,.... hay đơn giản là theo đuổi phong cách iFan mà không ngần ngại về giá thành.</p>
+        <hr>
+        <h1 align="center">CÁC DÒNG IPHONE</h1>
+        <div align="center">
+            <div class="column">
+                <div class="ten">iPHONE6</div>
+        <img src="anh1/iphone-6-32gb-gold-hh-600x600-600x600-600x600.jpeg" alt=""class="box" width="200"height="300">
+        </div>
+            <div class="column">
+                <div class="ten">iPHONE7</div>
+        <img src="anh1/iphone-7-gold-600x600-1-600x600.jpeg" alt=""class="box" width="200"height="300">
+        </div>
+            <div class="column">
+                <div class="ten">iPHONE8</div>
+        <img src="anh1/iphone-8-64gb-hh-600x600.jpeg" alt=""class="box" width="200"height="300">
+        </div>
+            <div class="column">
+                <div class="ten">iPHONE X</div>
+        <img src="anh1/iphone-x-64gb-hh-600x600.jpeg" alt=""class="box" width="200"height="300">
+        </div>
+        <div>
+            <hr>
+            <h1>CÁC SẢN PHẨM CỦA APPLE</h1>
+            <div class="column">
+                <div class="ten">AirPods</div>
+            <img src="anh1/AirPods.jpeg" alt=""class="box" width="200"height="300">
+            </div>
+            <div class="column">
+                <div class="ten">AppleWATCH</div>
+            <img src="anh1/apple qúach.jpeg" alt=""class="box" width="200"height="300">
+            </div>
+            <div class="column">
+                <div class="ten">iMAC</div>
+            <img src="anh1/imac.jpeg" alt=""class="box" width="200"height="300">
+            </div>
+            <div class="column">
+                <div class="ten">MacBook</div>
+            <img src="anh1/macbook.jpeg" alt=""class="box" width="200"height="300">
+            </div>
+            <hr>
+            <h1>MÁY CHƠI GAME PS4</h1>
+            <div class="cloumn">
+                <div class="ten">PlayStation 4 (viết tắt là PS4) </div>
+            <img src="anh1/ps4-hrdware-large18.jpeg" alt=""class="box" width="400"height="300">
+            <h2> PS4 là một máy chơi game gia đình do Sony Interactive Entertainment phát triển. Được công bố là thế hệ máy kế nhiệm PlayStation 3 trong một cuộc họp báo vào ngày 20 tháng 2 năm 2013, nó được ra mắt vào ngày 15 tháng 11 tại Bắc Mỹ, ngày 29 tháng 11 ở Châu Âu, Nam Mỹ và Úc; và ngày 22 tháng 2 năm 2014 tại Nhật Bản. Nó cạnh tranh với Wii U, Switch của Nintendo và Xbox One của Microsoft.</h2>
+            </div>
+            <hr>
+            <h1>CÁC LOẠI MÁY NGHE NHẠC</h1>
+            <p>Bắt đầu của thiên niên kỷ mới chúng ta lại thấy một trào lưu mới MP3. </p>
+            <div class="column">
+                <div class="ten">MÁY CỔ ĐIỂN</div>
+            <img src="anh1/mp3.jpeg" alt=""class="box" width="200"height="300">
+            </div>
+            <div class="column">
+                <div class="ten">MÁY MP3 ĐỜI 2016</div>
+            <img src="anh1/maynghenhac1.jpeg" alt=""class="box" width="200"height="300">
+            </div>
+            <div class="column">
+                <div class="ten">MÁY MP3 CẢM ỨNG</div>
+            <img src="anh1/maynbghenhac.jpeg" alt=""class="box" width="200"height="300">
+            </div>
+            <div class="column">
+                <div class="ten">MP3 ĐƠN GIẢN</div>
+                <img src="anh1/HTB1GFI0rYGYBuNjy0Foq6AiBFXaz.jpeg" alt=""class="box" width="200"height="300">
+            </div>
+            <hr>
+            <br>
+        <aside class="haha">
+            <p>TIN TỨC VỀ CÔNG NGHỆ</p>
+            <h3>Cập nhật xu hướng công nghệ nóng hổi nhất, theo dõi tin tức của người sáng lập, tất cả những gì "hot hit" nhất về công nghệ mà bạn cần biết.
+            </h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pFwhWZRLBBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/F_Vp69qnc6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uu-1yNB7Wa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yAnFeCGs09I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </aside>
+        <footer>SHOP LOVE PIK
+            <script src="https://uhchat.net/code.php?f=c5d52b"></script>
+        </footer>
+</body>
+</html>

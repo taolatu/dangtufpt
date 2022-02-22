@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>38-PS23004-AnhTu</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="dangnhap.css">
+    <link rel="stylesheet" href="menucon.css">
+    <style>
+        body{
+            padding: 0%;
+            margin: 0%;
+        }
+        header{
+            width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            float:left;
+        }
+        .menu>ul>li{
+            display: inline-block;
+        }
+        .menu>ul>li>a{
+            display: block;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: pink;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+        .menu>ul{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            background-color: blue;
+            text-align: left;
+        }
+        .menu>ul>li>a:hover{
+            color: black ;
+        }
+        .menu>ul>li{
+            position: relative;
+        }
+        .menu ul ul a{
+            display: block;
+            line-height: 30px;
+            color: yellow;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            padding: 0 10px;
+        }
+        .menu ul ul{
+            position: absolute;
+            display: none;
+            padding: 0%;
+            margin: 0%;
+            list-style: none;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 1px black;
+
+        }
+        .menu>ul>li:hover>ul{
+            color: yellow;
+            display: block;
+
+        }
+        .menu ul ul a:hover{
+            background-color: powderblue;
+            color: aliceblue;
+        }
+        .menu{
+            border: 5px solid purple;
+            padding: 0px;
+            margin: 5px;
+            list-style: none;
+            border-radius: 6px; 
+        }
+        .haha a{
+            display: block;
+            border-bottom: 1px dotted orangered;
+            color: black;
+            font-variant: small-caps;
+            font-size: large;
+            text-decoration: none;
+            padding: 8px 5px 8px 30px; 
+        }
+        .haha a:hover{
+            border-bottom: 1px dotted white;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+        footer{
+            border: 2px solid purple;
+            text-align: center;
+            background-color: green;
+        }
+        .box{
+            margin: 5px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: yellow;
+            box-shadow: 0 0 7px blue;
+        }
+        .box:hover{
+            box-shadow: 0 0 20px red ;
+            background-color: aqua;
+        }
+        .form-control{
+            float: right;
+            width: 300px;
+        }
+        .form-group{
+            float: right;
+        }
+        p{
+            color: rgb(226, 17, 52);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="anh1/hinh-nen-Apple-1.jpeg" alt="" width="1500" height="300">
+        <div class="form-group">
+            <input type="text" placeholder="TÌM KIẾM">
+        </div>
+    </header>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li><a href="ass2.html">TRANG CHỦ</a></li>
+                <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                <li class="menucon">
+                    <a class="menucon1" href="lienhe.html">LIÊN HỆ</a>
+                    <div class="menucon-content">
+                    <a href="#">Facebook</a>
+                    <a href="#">Zalo</a>
+                    <a href="#">Số Điện Thoại</a>
+                    </div>
+                </li>
+                <li><a href="gopy.html">GÓP Ý</a></li>
+                <li class="menucon">
+                    <a class="menucon1" href="#">SẢN PHẨM</a>
+                    <div class="menucon-content">
+                    <a href="#">iPHONE</a>
+                    <a href="#">iPAD</a>
+                    <a href="#">ĐIỆN THOẠI</a>
+                    <a href="#">MP3</a>
+                    <a href="#">PS4</a>
+                    <a href="#">iMAC</a>
+                    <a href="#">MacBook</a>
+                    <a href="#">Apple Watch</a>
+                    <a href="#"><AirPod/a>
+                    </div>
+                </li>
+                <li><a href="dangnhap.html">ĐĂNG NHẬP</a></li>
+                <li><a href="dangki.html">ĐĂNG KÍ</a></li>
+            </ul>
+            <li><a href=""></a></li>
+        </div>
+        </nav>
+        <aside class="haha">
+            <ul> 
+                <li class="menucon">
+                    <a class="menucon1" href="#">Điện Thoaị</a>
+                    <div class="menucon-content">
+                        <a href="">iPhone 6</a>
+                        <a href="">iPhone 7</a>
+                        <a href="">iPhone 8</a>
+                        <a href="">iPhone X</a>
+                    </div>
+                </li>
+                <li class="menucon">
+                    <a class="menucon1" href="#">MP3</a>
+                    <div class="menucon-content">
+                        <a href="">MP3 Cổ Điển</a>
+                        <a href="">MP3 Bấm Nút</a>
+                        <a href="">MP3 Cảm Ứng</a>
+                        <a href="">MP3 Thời Trang</a>
+                    </div>
+            </li>
+            <li class="menucon">
+                <a class="menucon1" href="#">PlayStaytion4</a>
+                <div class="menucon-content">
+                    <a href="">Máy Chơi Game PS4 Bản Giới Hạn</a>
+                    <a href="">Máy Chơi Game PS4 Bản Kèm Đĩa</a>
+                </div>
+            </li>
+            <li class="menucon">
+                <a class="menucon1" href="#">Đồng Hồ AppleWatch</a>
+                <div class="menucon-content">
+                    <a href="">Apple Watch 2</a>
+                    <a href="">Apple Watch 5.2</a>
+                    <a href="">Apple Watch 6.2.2</a>
+                    <a href="">Apple Watch 3.0</a>
+                </div>
+            </li>
+            <li class="menucon">
+                <a class="menucon1" href="#">iMac</a>
+                <div class="menucon-content">
+                    <a href="">iMac G3</a>
+                    <a href="">iMac G5</a>
+                    <a href="">iMac 2007</a>
+                    <a href="">iMacMac Pro</a>
+                </div>
+            </li>
+            <li class="menucon">
+                <a class="menucon1" href="#">CÁC LOẠI SẢN PHẨM CỦA APPLE</a>
+                <div class="menucon-content">
+                    <a href="">iPhone</a>
+                    <a href="">Airpod</a>
+                    <a href="">MacBook</a>
+                    <a href="">iMac</a>
+                    <a href="">Apple Watch</a>
+                    <a href="">iPad</a>
+                </div>
+            </li>
+            </ul>
+        </aside>
+        <main>
+            <div class="container">
+            <div class="login-form">
+                <form action="" method="post">
+                    <h1>Dang Nhap</h1>
+                    <div class="input-box">
+                        <i ></i>
+                        <input type="text" placeholder="Ten dang nhap">
+                    </div>
+                    <div class="input-box">
+                        <i ></i>
+                        <input type="password" placeholder="Mat khau">
+                    </div>
+                    <div class="btn-box">
+                        <button type="submit">
+                            Đăng nhập
+                        </button>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </main>
+        <footer>SHOP LOVE PIK
+            <script src="https://uhchat.net/code.php?f=c5d52b"></script>
+        </footer>
+</body>
+</html>
